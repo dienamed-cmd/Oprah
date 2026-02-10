@@ -1,10 +1,15 @@
 body {
     font-family:  Arial, sans-serif;
-    background:  liner-gradient(135deg, #eef2f7, #dfe9f3);
-    margin: 0;
+   
     padding: 40px;
 }
+body {
+  height: 100vh;  
+  background-image: linear-gradient(to right, #fffd89, #19547b);
 
+  
+
+}
 /* Titre*/
 h1 {
     text-align: center;
@@ -56,6 +61,31 @@ gap: 25px;
 
 .navigation a {
     margin-left: 18px;
-    color: aquamarine;
+    color: black;
     text-decoration: underline;
+    
+    
+}
+
+.navbar {
+   display: flex;
+   justify-content: flex-end;
+   padding: 15px;
+}
+
+.Philanthrope {
+display: flex;
+gap: 20px;
+padding-bottom: 20px;
+}
+.Philanthrope {
+display: flex;
+gap: 20px;
+}
+
+img {
+border-radius: 5%;
+}
+p {
+text-decoration: underline;
 }
